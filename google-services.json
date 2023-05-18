@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907978326148",
+    "project_id": "andapush-22a39",
+    "storage_bucket": "andapush-22a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907978326148:android:62ceb347d4d5604cc0c2d1",
+        "android_client_info": {
+          "package_name": "com.andanet.ecomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907978326148-6ho9ddhra582u5gf9128ngrimj8c2vid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGugrZLqrKx1qK7seFVJYVIoOdh053GSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907978326148-6ho9ddhra582u5gf9128ngrimj8c2vid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

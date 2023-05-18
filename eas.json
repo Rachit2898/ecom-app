@@ -1,0 +1,53 @@
+{
+  "cli": {
+    "version": ">= 0.60.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "preview": {
+      "channel": "staging",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true,
+        "resourceClass": "m1-medium"
+      },
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "staging"
+      }
+    },
+    "production": {
+      "channel": "production",
+      "env": {
+        "APP_ENV":  "production"
+      },
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    },
+    "staging": {
+      "channel": "staging",
+      "env": {
+        "APP_ENV":  "staging"
+      },
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "resourceClass": "m1-medium"
+      }
+    }
+  },
+  "submit": {
+    "production": {},
+    "preview": {}
+  }
+}
